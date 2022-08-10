@@ -19,5 +19,5 @@ from MyApp.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path(r'^welcome/$',welcome),
+    path('welcome/',welcome),
 ]
